@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: hot-spots_development
+  host: localhost
+  pool: 5
+  username:
+  password: 
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: hot-spots_test
+  host: localhost
+  pool: 5
+  username:
+  password: 
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: hot-spots_production
+  host: localhost
+  pool: 5
+  username:
+  password: 

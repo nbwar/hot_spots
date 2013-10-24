@@ -1,0 +1,63 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+body {
+  background-image:url('/assets/whitey.png');
+}
+.container {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.guages {
+  float: left;
+  /*width: 50%;*/
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.count {
+  font-style: italic;
+}
+
+.leaderboard {
+  /*padding-left: 40px;*/
+  /*width: 40%;*/
+  /*height: 500px;*/
+  float: left;
+}
+
+.guage {
+  width: 100px;
+  height: 80px;
+  display: inline-block;
+}
+
+.top {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.second {
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+.third {
+  font-size: 1.4em;
+  font-weight: bold;
+}
